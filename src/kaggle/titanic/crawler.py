@@ -1,8 +1,8 @@
 from urllib import parse, request
 from bs4 import BeautifulSoup
-import wfsc.util as util
 import pandas as pd
 import re
+import util
 
 age_regx = re.compile('Age [0-9]*')
 
